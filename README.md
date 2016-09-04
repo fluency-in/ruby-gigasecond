@@ -1,8 +1,22 @@
-# Gigasecond
+# Ruby: Gigasecond
 
-Write a program that will calculate the date that someone turned or will celebrate their 1 Gs anniversary.
+Write a program that calculates the moment when someone has lived for 10^9 seconds.
 
-A gigasecond is one billion (10**9) seconds.
+A gigasecond is 10^9 (1,000,000,000) seconds.
+
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby gigasecond_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
 
 ## Source
 
@@ -12,3 +26,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
